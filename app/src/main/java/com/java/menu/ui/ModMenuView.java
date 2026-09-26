@@ -102,7 +102,7 @@ public final class ModMenuView extends LinearLayout
                     switch (e.getActionMasked())
                     {
                         case MotionEvent.ACTION_DOWN:
-                            close.setTextColor(Theme.DANGER);
+                            close.setTextColor(Theme.RED);
                         break;
 
                         case MotionEvent.ACTION_UP:
