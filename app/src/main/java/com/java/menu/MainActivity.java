@@ -51,7 +51,7 @@ public final class MainActivity extends Activity
         col.setBackgroundColor(0xFF0F0F18);
 
         TextView title = new TextView(this);
-        title.setText("Furkan Cheat");
+        title.setText("Amınoğlu Cheat");
         title.setTextColor(Theme.TEXT);
         title.setTextSize(22);
         title.setTypeface(Typeface.DEFAULT_BOLD);
