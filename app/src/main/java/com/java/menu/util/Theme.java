@@ -15,7 +15,7 @@ public final class Theme
     public static final int DANGER = 0xFFFF5252;
     public static final int TRACK_OFF = 0xFF2E2E3E;
     public static final int TRACK_ON = 0xFF7C5CFF;
-    public static final String LOGO_NAME = "ic_launcher_foreground";
+    public static final String LOGO_NAME = "icon";
     public static final String LOGO_TYPE = "mipmap";
 
     private Theme()
