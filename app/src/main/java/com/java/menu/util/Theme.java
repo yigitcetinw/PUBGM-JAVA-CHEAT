@@ -4,8 +4,8 @@ import android.content.Context;
 
 public final class Theme
 {
-    public static final int BG_START = 0x22222222;
-    public static final int BG_END = 0x22222222;
+    public static final int BG_START = 0xFF222222;
+    public static final int BG_END = 0xFF222222;
     public static final int STROKE = 0x14FFFFFF;
     public static final int ROW_IDLE = 0x0AFFFFFF;
     public static final int ROW_PRESSED = 0x1FFFFFFF;
