@@ -92,7 +92,7 @@ public final class ModMenuView extends LinearLayout
         h.addView(logo, new LayoutParams(Theme.dp(c, 34), Theme.dp(c, 34)));
 
         TextView title = new TextView(c);
-        title.setText("Furkan Cheat");
+        title.setText("Amınoğlu Cheat");
         title.setTextColor(Theme.TEXT);
         title.setTextSize(15);
         title.setTypeface(Typeface.DEFAULT_BOLD);
