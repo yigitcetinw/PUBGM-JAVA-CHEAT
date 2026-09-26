@@ -69,7 +69,7 @@ public final class ToggleSwitch extends View
         float h = getHeight();
         float r = h / 2f;
 
-        trackPaint.setColor(blend(Theme.TRACK_OFF, Theme.TRACK_ON, progress));
+        trackPaint.setColor(blend(Theme.TRACK_OFF, Theme.RED, progress));
         rect.set(0, 0, w, h);
         canvas.drawRoundRect(rect, r, r, trackPaint);
 
