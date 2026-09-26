@@ -75,22 +75,6 @@ public final class ModMenuView extends LinearLayout
         int p = Theme.dp(c, 4);
         h.setPadding(p, p, p, Theme.dp(c, 10));
 
-        ImageView logo = new ImageView(c);
-        int id = c.getResources().getIdentifier(Theme.LOGO_NAME, Theme.LOGO_TYPE, c.getPackageName());
-        if (id != 0)
-        {
-            logo.setImageResource(id);
-        }
-        else
-        {
-            GradientDrawable lb = new GradientDrawable();
-            lb.setShape(GradientDrawable.OVAL);
-            lb.setColor(Theme.ACCENT);
-            logo.setBackground(lb);
-        }
-
-        h.addView(logo, new LayoutParams(Theme.dp(c, 34), Theme.dp(c, 34)));
-
         TextView title = new TextView(c);
         title.setText("Amınoğlu Cheat");
         title.setTextColor(Theme.TEXT);
