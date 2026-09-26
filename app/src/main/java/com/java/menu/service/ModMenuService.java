@@ -284,7 +284,7 @@ public final class ModMenuService extends Service
             b = new Notification.Builder(this);
         }
 
-        Notification n = b.setSmallIcon(android.R.drawable.ic_menu_manage).setContentTitle("Furkan Cheat").setContentText("Overlay Active").setOngoing(true).setPriority(Notification.PRIORITY_MIN).build();
+        Notification n = b.setSmallIcon(android.R.drawable.ic_menu_manage).setContentTitle("Amınoğlu Cheat").setContentText("Overlay Active").setOngoing(true).setPriority(Notification.PRIORITY_MIN).build();
 
         startForeground(NOTIF_ID, n);
     }
